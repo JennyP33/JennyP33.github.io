@@ -10,3 +10,18 @@ p {
 	font-family: Arial;
 	font-size: 12px;
 }
+
+* {
+	background-color: yellow;
+}
+
+table, tr, td {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+th, tr {
+	padding:15px;
+}
