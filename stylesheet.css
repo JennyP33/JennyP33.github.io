@@ -1,0 +1,12 @@
+/* my stylesheet */ 
+h1 {
+	color: red;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+p {
+	color: purple;
+	font-family: Arial;
+	font-size: 12px;
+}
