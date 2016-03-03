@@ -1,27 +1,34 @@
 /* my stylesheet */ 
 h1 {
-	color: red;
-	font-family: Verdana;
+	color:red;
+	font-family:'Verdana';
 	font-size: 16px;
+	text-align:center;
 }
 
 p {
 	color: purple;
-	font-family: Arial;
+	font-family:'Arial';
 	font-size: 12px;
+	text-align:center;
 }
 
 * {
-	background-color: yellow;
+	background-color:yellow;
+	color:purple;
+	font-size:16px;
+	font-family:'Verdana';
+	text-align:center;
 }
 
-table, tr, td {
+table {
     display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
+    border-collapse:separate;
+    border-spacing:2px;
     border-color: gray;
+    text-align: center;
 }
 
-th, tr {
+td, tr {
 	padding:15px;
 }
